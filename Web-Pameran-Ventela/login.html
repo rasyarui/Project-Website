@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="form">
+      <div class="btn">
+        <button class="signUpBtn">SIGN UP</button>
+        <button class="loginBtn">LOG IN</button>
+      </div>
+      <form action="" class="signUp">
+        <div class="formGroup">
+          <input
+            type="text"
+            name="name"
+            id="user name"
+            placeholder="User Name"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formGroup">
+          <input
+            type="email"
+            name="email"
+            id="Email ID"
+            placeholder="Email ID"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formGroup">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formGroup">
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="ConfirmPassword"
+            autocomplete="off"
+          />
+        </div>
+        <div class="checkBox">
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <span class="text">I agree with term & conditions.</span>
+        </div>
+        <div class="formGroup">
+          <a href="/Home.html" type="button"
+            ><button class="btn2">REGISTER</button></a
+          >
+        </div>
+      </form>
+
+      <!-- Login -->
+      <form action="" class="login">
+        <div class="formGroup">
+          <input
+            type="email"
+            name="email"
+            id="Email ID"
+            placeholder="Email ID"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formGroup">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formGroup">
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="ConfirmPassword"
+            autocomplete="off"
+          />
+        </div>
+        <div class="checkBox">
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <span class="text">Keep me signed in on this devices.</span>
+        </div>
+        <div class="formGroup">
+          <a href="/Home.html"
+            ><button class="btn2" type="button">LOGIN</button></a
+          >
+        </div>
+      </form>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>

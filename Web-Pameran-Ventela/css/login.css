@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(red\ ventela.webp);
+	background-size: cover;
+	background-attachment: fixed;
+	filter: blur(5px);
+}
+
+.form{
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 450px;
+	background-color: rgba(30, 39, 39, 0.3);
+	box-shadow: 0 5px 30px black;
+}
+
+.btn button{
+	padding: 3px;
+	margin: 30px 0px 30px 40px;
+	border-style: none;
+	background-color: transparent;
+	color: white;
+	font-size: 18px;
+	font-weight: 550;
+}
+
+.formGroup{
+	display: flex;
+	justify-content: center;
+}
+
+.formGroup input{
+	border: none;
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-bottom: 2px solid white;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+::placeholder{
+	color: white;	
+}
+
+input:focus{
+	outline: none;
+	border-bottom: 2px solid rgb(149, 241, 149);
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.checkBox{
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+
+#checkbox{
+	height: 15px;
+	width: 15px;
+}
+
+.text{
+	color: whitesmoke;
+	font-size: 13px;
+}
+
+.btn2{
+	padding: 10px;
+	outline: none;
+	width: 150px;
+	border-radius: 20px;
+	border-style: none;
+	background-color: rgb(28, 131, 28);
+	color: whitesmoke;
+	font-weight: 600;
+}
+
+.btn2:hover{
+	background-color: rgba(23, 88, 23, 0.5);
+}
+
+.btn button:hover{
+	border-bottom: 2px solid rgb(99, 224, 99);
+}
+
+.login{
+	display: none;
+}
+
+
+/* login */
+.login{
+	margin-top: 40px;
+}
+
+.login .checkBox{
+	margin-top: 40px;
+}
